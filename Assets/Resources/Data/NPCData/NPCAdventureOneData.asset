@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0674c199b8ddc4b82003ce2aea008c, type: 3}
+  m_Name: NPCAdventureOneData
+  m_EditorClassIdentifier: 
+  id: 0
+  sprite: {fileID: -4428886623687994698, guid: 803a5c18e0a626b448e6a7f9b8c4ff19, type: 3}
+  name: "\u5192\u9669\u5BB6\u827E\u5E03\u7279"
+  dialogModels:
+  - npcContent: "\u4F60\u597D\uFF0C\u52C7\u8005\uFF0C\u6211\u60F3\u6211\u4EEC\u5E94\u8BE5\u662F\u540C\u7C7B\u4EBA......"
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u4EA4\u8C08"
+      dialogEventModels:
+      - chatEvent: 0
+        args: 
+    - selectionName: "\u79BB\u5F00"
+      dialogEventModels:
+      - chatEvent: 1
+        args: 
+  - npcContent: "\u6700\u8FD1\u767D\u5929\u9633\u5149\u4E5F\u8D8A\u6765\u8D8A\u5C11\u4E86\uFF0C\u5230\u5904\u90FD\u662F\u53EF\u6015\u7684\u602A\u7269\u3002\u54E6\uFF0C\u5BF9\u4E86\uFF0C\u9644\u8FD1\u6709\u4E00\u4E2A\u4F1A\u98DE\u7684\u72EC\u773C\u602A\uFF0C\u975E\u5E38\u96BE\u7F20\u3002"
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u5E94\u5BF9\u4E4B\u6CD5"
+      dialogEventModels:
+      - chatEvent: 0
+        args: 
+    - selectionName: "\u79BB\u5F00"
+      dialogEventModels:
+      - chatEvent: 1
+        args: 
+  - npcContent: "\u5F53\u5FC3\u7684\u5B83\u7684\u70AE\u5F39\u3002\u4E0D\u8FC7\u4EE5\u6700\u8FD1\u8FD9\u8BE1\u5F02\u7684\u9ED1\u6697\uFF0C\u6362\u505A\u662F\u6211\uFF0C\u80AF\u5B9A\u4F1A\u5446\u5728\u6E29\u6696\u660E\u4EAE\u7684\u7BDD\u706B\u65C1\u3002"
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u79BB\u5F00"
+      dialogEventModels:
+      - chatEvent: 1
+        args: 

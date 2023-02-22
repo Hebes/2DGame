@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a407845c1486be844a16c9c68255bbff, type: 3}
+  m_Name: EnemyHuntressData
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 4723107735738678597, guid: 1923193e5a5831e4e9ef74e959b1653d, type: 3}
+  moveVelocity: 8
+  jumpVelocity: 15
+  deadCoin: 8
+  deadMagicPower: 8
+  deadCoinCreateOffset: {x: 0, y: 0}
+  minIdleTime: 2
+  maxIdleTime: 3
+  maxDetectedTime: 1
+  detectedMinFlipTime: 0.5
+  turnNumber: 3
+  turnTime: 1.5
+  lookForPlayerVelocity: 15
+  chargeVelocity: 15
+  chargeTime: 1.5
+  chargeMinFlipTime: 0.5
+  dodgeStrength: 20
+  dodgeDir: {x: 0, y: 0}
+  dodgeCoolDownTime: 2
+  backMovementVelocity: 10
+  backTime: 1.5
+  minBackTime: 0.5
+  minBackFlipTime: 0.5
+  maxMeleeAttackNumber: 2
+  meleeAttackCoolDownTime: 4
+  meleeAttackContinueCoolDownTime: 6
+  rangeAttackNum: 1
+  rangeAttackCoolDownTime: 6
+  createBulletOffset: {x: 0.5, y: 0.5}
+  createBombOffset: {x: 0, y: 0}
+  inAirDeadTime: 1.5
+  maxDashTime: 1
+  dashCoolDownTime: 5
+  dashVelocity: 18
+  scaredVelocity: 7
+  scaredTime: 3
+  hitToBackStateProbability: 30
+  maxRigidityTime: 3
+  maxShieldTime: 4
+  shieldMoveVelocity: 2
+  shieldminFlipTime: 2
+  shieldCoolDownTime: 8
+  shieldBeatBackForece: 3
+  shieldBeatBackForeceTime: 0.5
+  meleeAttackTwoCombatIndex: 3

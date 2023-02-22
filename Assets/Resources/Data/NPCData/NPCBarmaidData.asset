@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0674c199b8ddc4b82003ce2aea008c, type: 3}
+  m_Name: NPCBarmaidData
+  m_EditorClassIdentifier: 
+  id: 5
+  sprite: {fileID: -2216033458992054209, guid: beae4b21f1067de42b0e9710eed62159, type: 3}
+  name: "\u8D5B\u831C\u8389\u96C5"
+  dialogModels:
+  - npcContent: "\u8C22\u8C22\u4F60\u6551\u4E86\u6211,\u6211\u60F3\u4F60\u4E00\u5B9A\u6709\u5F88\u591A\u7591\u60D1\u3002"
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u4E3A\u4EC0\u4E48\u8FD9\u91CC\u6CA1\u6709\u8DEF\u53EF\u8D70\u4E86\uFF1F"
+      dialogEventModels:
+      - chatEvent: 0
+        args: 
+    - selectionName: "\u4E3A\u4EC0\u4E48\u4F60\u4F1A\u5728\u8FD9\u91CC?"
+      dialogEventModels:
+      - chatEvent: 2
+        args: 4
+    - selectionName: "\u79BB\u5F00"
+      dialogEventModels:
+      - chatEvent: 1
+        args: 
+  - npcContent: "\u4F60\u8981\u542C\u771F\u8BDD\u8FD8\u662F\u5047\u8BDD\u5462\uFF1F"
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u771F\u8BDD"
+      dialogEventModels:
+      - chatEvent: 2
+        args: 2
+    - selectionName: "\u5047\u8BDD"
+      dialogEventModels:
+      - chatEvent: 2
+        args: 3
+  - npcContent: "\u56E0\u4E3A\u6E38\u620F\u4F5C\u8005\u662F\u4E2A\u61D2\u72D7\uFF0C\u53EA\u505A\u4E86\u4E24\u5173\u3002"
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u79BB\u5F00"
+      dialogEventModels:
+      - chatEvent: 2
+        args: 5
+  - npcContent: "\u4F60\u9700\u8981\u4E00\u628A\u9B54\u6CD5\u94A5\u5319,\u6765\u6253\u5F00\u8FD9\u9690\u85CF\u4E4B\u95E8..."
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u79BB\u5F00"
+      dialogEventModels:
+      - chatEvent: 2
+        args: 5
+  - npcContent: "\u8FD9\u4E2A\u561B?\u6211\u4E5F\u4E0D\u6E05\u695A...\u6211\u53EA\u662F\u4E2ANPC...\u539F\u672C\u6211\u8FD8\u5728\u9152\u9986\u9001\u9152\u5462..."
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u7EE7\u7EED"
+      dialogEventModels:
+      - chatEvent: 0
+        args: 
+  - npcContent: "\u4F60\u5F97\u60F3\u4E2A\u529E\u6CD5\u5C06\u4F60\u6211\u5F04\u51FA\u53BB..."
+    dialogEventModels: []
+    dialogPlayerSelects:
+    - selectionName: "\u79BB\u5F00"
+      dialogEventModels:
+      - chatEvent: 1
+        args: 

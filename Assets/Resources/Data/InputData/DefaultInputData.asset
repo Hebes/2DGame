@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9a08549580153498f6257a1f6cb3ca, type: 3}
+  m_Name: DefaultInputData
+  m_EditorClassIdentifier: 
+  _keys:
+  - name: Attack
+    trigger: 0
+    keyCode: 106
+    pressInterval: 1
+    realInterval: 0
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  - name: Jump
+    trigger: 0
+    keyCode: 107
+    pressInterval: 1
+    realInterval: 0
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  - name: Bow
+    trigger: 0
+    keyCode: 117
+    pressInterval: 0.5
+    realInterval: 0.0819234
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  - name: Grab
+    trigger: 2
+    keyCode: 304
+    pressInterval: 1
+    realInterval: 0
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  - name: Dash
+    trigger: 0
+    keyCode: 108
+    pressInterval: 1
+    realInterval: 0
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  - name: UseItem
+    trigger: 0
+    keyCode: 114
+    pressInterval: 1
+    realInterval: 0
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  - name: ChangeItem
+    trigger: 0
+    keyCode: 113
+    pressInterval: 1
+    realInterval: 0
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  - name: AttractCoin
+    trigger: 2
+    keyCode: 101
+    pressInterval: 1
+    realInterval: 0
+    isDown: 0
+    isDoubleDown: 0
+    isUp: 0
+    acceptDoubleDown: 0
+    enable: 1
+  _valueKeys:
+  - name: 
+    range: {x: 0, y: 1}
+    keyCode: 0
+    addSpeed: 3
+    value: 0
+    enable: 1
+  _axisKeys:
+  - name: Horizontal
+    range: {x: -1, y: 1}
+    posKey: 100
+    negKey: 97
+    addSpeed: 10
+    value: 3.3894346e-35
+    rawValue: 0
+    enable: 1
+  - name: Vertical
+    range: {x: -1, y: 1}
+    posKey: 119
+    negKey: 115
+    addSpeed: 10
+    value: 3.3894346e-35
+    rawValue: 0
+    enable: 1

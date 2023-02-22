@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2725631ca17c2f428e9bef39b760377, type: 3}
+  m_Name: AirEnemyFlyEyeData
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -4795363162621231457, guid: aaf74263cf8997d4dbd9043f5ebeee00, type: 3}
+  moveVelocity: 5
+  jumpVelocity: 15
+  deadCoin: 6
+  deadMagicPower: 6
+  minIdleTime: 1
+  maxIdleTime: 5
+  maxDetectedTime: 1
+  detectedMinFlipTime: 0.5
+  turnNumber: 4
+  turnTime: 1
+  lookForPlayerVelocity: 15
+  chargeVelocity: 10
+  chargeTime: 10
+  chargeMinFlipTime: 0.5
+  dodgeStrength: 15
+  dodgeDir: {x: 1, y: 2}
+  backMovementVelocity: 5
+  backTime: 1.5
+  minBackTime: 0.5
+  minBackFlipTime: 0.5
+  maxMeleeAttackNumber: 1
+  meleeAttackCoolDownTime: 2
+  meleeAttackContinueCoolDownTime: 4
+  rangeAttackNum: 1
+  rangeAttackCoolDownTime: 5
+  createBulletOffset: {x: 0, y: 0}
+  createBombOffset: {x: 0, y: 0}
+  inAirDeadTime: 2
+  maxDashTime: 1
+  dashCoolDownTime: 5
+  dashVelocity: 20
+  scaredVelocity: 7
+  scaredTime: 3
+  hitToBackStateProbability: 30
+  maxRigidityTime: 3
+  maxShieldTime: 4
+  shieldMoveVelocity: 2
+  shieldminFlipTime: 2
+  shieldCoolDownTime: 8
+  shieldBeatBackForece: 3
+  shieldBeatBackForeceTime: 0.5
+  changeIdleDirTime: 0.5
+  idleVelocity: 1
+  minChangeDirTime: 1
+  maxTouchingWallTime: 1
+  chargeStopDis: 0.5
+  maxWaitTime: 0.8
+  waitStateCoolTime: 5
+  backDirMult: {x: 1, y: 3}
+  deadGravitySacle: 6
+  changeAttackOffsetTime: 2

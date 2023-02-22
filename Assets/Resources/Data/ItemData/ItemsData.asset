@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c0047c1a836124e8ebed7dc6bfd1f9, type: 3}
+  m_Name: ItemsData
+  m_EditorClassIdentifier: 
+  items:
+  - sprite: {fileID: 21300000, guid: d6e27843de3fb0a4181f6004403c5f76, type: 3}
+    name: "\u62A4\u8EAB\u5B9D\u7389"
+    tpye: 1
+    price: 0
+    tips: "\u5173\u952E\u65F6\u523B\uFF0C\\n\u6216\u8BB8\u80FD\u6551\u4EBA\u4E00\u547D......"
+  - sprite: {fileID: 21300000, guid: f72ddcfc6f2700e49bf95d58a17d3034, type: 3}
+    name: "\u5927\u8FD8\u4E39"
+    tpye: 0
+    price: 400
+    tips: "\u5927\u8FD8\u4E39\u662F\u5C11\u6797\u5BFA\u72EC\u5BB6\u836F\u4E38\u3002\\n\u4E0D\u4EC5\u80FD\u8D77\u6B7B\u56DE\u751F\uFF0C\\n\u800C\u4E14\u6709\u7597\u6CBB\u4E00\u5207\u5185\u3001\u5916\u4F24\u53CA\u589E\u52A0\u529F\u529B\u4E4B\u6548"
+  - sprite: {fileID: 21300000, guid: f3b2b93cf8f72ee4dba4e5a2cb89f5fd, type: 3}
+    name: "\u6C14\u8840\u4E39"
+    tpye: 0
+    price: 100
+    tips: "\u6C14\u8840\u4E39\u662F\u4E00\u79CD\u53EF\u4EE5\u589E\u5F3A\u548C\u8865\u5145\u4EBA\u4F53\u6C14\u8840\u7684\u4E39\u836F\uFF0C\\n\u80FD\u589E\u52A0\u4E0E\u654C\u4EBA\u6218\u6597\u65F6\u7684\u6062\u590D\u80FD\u529B"
+  - sprite: {fileID: 21300000, guid: 1e686b13f7015254294d142f9484e41b, type: 3}
+    name: "\u6DEC\u5251\u77F3"
+    tpye: 2
+    price: 0
+    tips: "\u7825\u783A\u5251\u950B\uFF0C\u6DEC\u70BC\u5251\u6C14\uFF0C\\n\u5BF9\u4E8E\u7528\u5251\u8005\u6765\u8BF4\uFF0C\\n\u662F\u4E0D\u53EF\u591A\u5F97\u7684\u7A00\u4E16\u4E4B\u5B9D"
+  - sprite: {fileID: 21300000, guid: d8fe0833d3b9b494e9ffb5c2d0df24c5, type: 3}
+    name: "\u7075\u9B42\u62A4\u7B26"
+    tpye: 2
+    price: 0
+    tips: "\u82E5\u662F\u80FD\u5BFB\u5230\u5408\u9002\u7684\u7075\u5E08\uFF0C\\n\u5C06\u6B64\u7269\u51D1\u4E3A\u5B8C\u6574\u76844\u679A\u4F9B\u5949\u7ED9\u7075\u5E08\uFF0C\\n\u4FBF\u53EF\u5F97\u5230\u7075\u5E08\u7684\u795D\u798F\uFF0C\\n\u4F53\u529B\u548C\u6062\u590D\u529B\u5C06\u5F97\u5230\u63D0\u5347"
+  - sprite: {fileID: 21300000, guid: f30117af7d285d44994d50ae65b3a127, type: 3}
+    name: "\u7075\u9B42\u9879\u94FE"
+    tpye: 1
+    price: 0
+    tips: "\u5BF9\u4E8E\u7075\u5E08\uFF0C\\n\u6B64\u7269\u662F\u4E0D\u53EF\u591A\u5F97\u7684\u5B9D\u7269\uFF0C\\n\u800C\u5BF9\u4E8E\u666E\u901A\u4EBA\u6765\u8BF4\uFF0C\\n\u4F3C\u4E4E\u6CA1\u4EC0\u4E48\u4F5C\u7528"
+  - sprite: {fileID: 21300000, guid: f15b0813e33151f4e81507a956276fb2, type: 3}
+    name: "\u5B89\u5FB7\u9C81\u7684\u98CE\u7B5D\u8F74"
+    tpye: 1
+    price: 0
+    tips: "\u98CE\u7B5D\u8C61\u5F81\u7740\u5B69\u5B50\u7684\u7AE5\u771F,\u5929\u771F\u548C\u7F8E\u597D"

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Ground
+  - Bullet
+  - Effect
+  - DestructibleItem
+  - MapMgr
+  - Missile
+  - HeroResetPos
+  - BackgroundParallx
+  - ArchivePoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Enemy
+  - Player
+  - Damageable
+  - Attackable
+  - Bullet
+  - BulletAttackable
+  - DestructibleItem
+  - Traps
+  - InteractiveObject
+  - Coin
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1800055799
+    locked: 0
+  - name: Decoration
+    uniqueID: 1205909565
+    locked: 0
+  - name: Platform
+    uniqueID: 2161234291
+    locked: 0
+  - name: Enemy
+    uniqueID: 3674670573
+    locked: 0
+  - name: Player
+    uniqueID: 1877573943
+    locked: 0
+  - name: Foreground
+    uniqueID: 2644069329
+    locked: 0
+  - name: HiddenPlatform
+    uniqueID: 678893959
+    locked: 0
+  - name: Effect
+    uniqueID: 1478525545
+    locked: 0
+  - name: UI
+    uniqueID: 1709821415
+    locked: 0

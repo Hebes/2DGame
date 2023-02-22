@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb7baaf2f15c774b9eb85f77f442f9b, type: 3}
+  m_Name: EnemyGobineCombatData
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 4760345028161329882, guid: 02db6ad4fab68d3428683b3c4e04a634, type: 3}
+  attackDetails:
+  - attackType: 0
+    movemenVelocity: 0
+    damageAmount: 0
+    effect: {fileID: 0}
+    rangeAttackBullet: {fileID: 0}
+    bulletTime: 0
+    cameraShakeTime: 0
+    cameraShakeStrength: 0
+    cameraShakeFrequency: 0

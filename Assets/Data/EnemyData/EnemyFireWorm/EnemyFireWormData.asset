@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a44b81d64dd9b4d998d60994316f7c, type: 3}
+  m_Name: EnemyFireWormData
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 4723107735738678597, guid: b41c0a7902d1e484792fcc4ffd4d241a, type: 3}
+  moveVelocity: 6
+  jumpVelocity: 15
+  deadCoin: 5
+  deadMagicPower: 5
+  deadCoinCreateOffset: {x: 0, y: 0}
+  minIdleTime: 2
+  maxIdleTime: 5
+  maxDetectedTime: 0.5
+  detectedMinFlipTime: 0.5
+  turnNumber: 4
+  turnTime: 1
+  lookForPlayerVelocity: 15
+  chargeVelocity: 0
+  chargeTime: 0
+  chargeMinFlipTime: 0.5
+  dodgeStrength: 15
+  dodgeDir: {x: 1, y: 2}
+  dodgeCoolDownTime: 2
+  backMovementVelocity: 5
+  backTime: 1.5
+  minBackTime: 0.5
+  minBackFlipTime: 0.5
+  maxMeleeAttackNumber: 1
+  meleeAttackCoolDownTime: 1.5
+  meleeAttackContinueCoolDownTime: 4
+  rangeAttackNum: 3
+  rangeAttackCoolDownTime: 6
+  createBulletOffset: {x: 1.5, y: 0.7}
+  createBombOffset: {x: 0, y: 0}
+  inAirDeadTime: 0.5
+  maxDashTime: 1
+  dashCoolDownTime: 5
+  dashVelocity: 20
+  scaredVelocity: 7
+  scaredTime: 3
+  hitToBackStateProbability: 30
+  maxRigidityTime: 3
+  maxShieldTime: 4
+  shieldMoveVelocity: 2
+  shieldminFlipTime: 2
+  shieldCoolDownTime: 8
+  shieldBeatBackForece: 3
+  shieldBeatBackForeceTime: 0.5

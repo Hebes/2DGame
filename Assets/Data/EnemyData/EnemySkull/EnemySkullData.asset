@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a56c8bb55905d45ab9e8889ce2a396, type: 3}
+  m_Name: EnemySkullData
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 151ad590d656b024aba742155cb6837e, type: 3}
+  moveVelocity: 8
+  jumpVelocity: 15
+  deadCoin: 6
+  deadMagicPower: 6
+  deadCoinCreateOffset: {x: 0, y: 0}
+  minIdleTime: 1
+  maxIdleTime: 2
+  maxDetectedTime: 0.5
+  detectedMinFlipTime: 0.5
+  turnNumber: 4
+  turnTime: 1
+  lookForPlayerVelocity: 15
+  chargeVelocity: 8
+  chargeTime: 3
+  chargeMinFlipTime: 0.5
+  dodgeStrength: 25
+  dodgeDir: {x: -1, y: 2}
+  dodgeCoolDownTime: 2
+  backMovementVelocity: 20
+  backTime: 0.5
+  minBackTime: 0.5
+  minBackFlipTime: 0.5
+  maxMeleeAttackNumber: 2
+  meleeAttackCoolDownTime: 4
+  meleeAttackContinueCoolDownTime: 6
+  rangeAttackNum: 3
+  rangeAttackCoolDownTime: 3
+  createBulletOffset: {x: 0, y: 0}
+  createBombOffset: {x: 0, y: 0}
+  inAirDeadTime: 1
+  maxDashTime: 0.5
+  dashCoolDownTime: 5
+  dashVelocity: 18
+  scaredVelocity: 7
+  scaredTime: 3
+  hitToBackStateProbability: 30
+  maxRigidityTime: 3
+  maxShieldTime: 4
+  shieldMoveVelocity: 2
+  shieldminFlipTime: 2
+  shieldCoolDownTime: 8
+  shieldBeatBackForece: 3
+  shieldBeatBackForeceTime: 0.5
